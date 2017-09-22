@@ -5,9 +5,9 @@
  */
 public class StringEditor {
     /**
-     *
-     * @param input
-     * @param toRemove
+     * Method to remove a section of a string from an existing string
+     * @param input The string a segment is to be removed from
+     * @param toRemove The segment to remove
      */
     public static String remove(String input, String toRemove){
         return input.substring(0, input.indexOf(toRemove)) +
